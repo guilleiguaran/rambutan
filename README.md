@@ -1,6 +1,6 @@
 # Rambutan
 
-TODO: Write a gem description
+Ruby web microframework with Rails-ish controllers and routes.
 
 ## Installation
 
@@ -18,7 +18,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Setup the application in your config.ru file:
+
+```ruby
+# require the gem
+require 'rambutan'
+
+# Load controllers in controllers/ folder
+Dir[File.join(".", "controllers/*.rb")].each do |f|
+  require f
+end
+
+# Setup routes (posts#index will point to PostsController#index)
+app = Rambutan::RoutesSet.new do
+  get '/posts' => 'posts#index'
+end
+
+# Run application
+run app.router
+```
 
 ## Contributing
 
