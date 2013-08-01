@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Rambutan::VERSION
   spec.authors       = ["Adriana Palacio"]
   spec.email         = ["ppinedo.adriana@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{Ruby web microframework with Rails-ish controllers and routes.}
+  spec.summary       = %q{Ruby web microframework with Rails-ish controllers and routes.}
+  spec.homepage      = "https://github.com/NewRosies/rambutan"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
