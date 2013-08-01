@@ -25,6 +25,7 @@ Setup the application in your config.ru file:
 require 'rambutan'
 
 # Load controllers in controllers/ folder
+# Check examples/controllers/posts_controller.rb for an example
 # Remember also to put your views under views/ folder
 Dir[File.join(".", "controllers/*.rb")].each do |f|
   require f
