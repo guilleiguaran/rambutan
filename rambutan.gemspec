@@ -6,8 +6,8 @@ require 'rambutan/version'
 Gem::Specification.new do |spec|
   spec.name          = "rambutan"
   spec.version       = Rambutan::VERSION
-  spec.authors       = ["Adriana Palacio"]
-  spec.email         = ["ppinedo.adriana@gmail.com"]
+  spec.authors       = ["Adriana Palacio", "Guillermo Iguaran"]
+  spec.email         = ["ppinedo.adriana@gmail.com", "guilleiguaran@gmail.com"]
   spec.description   = %q{Ruby web microframework with Rails-ish controllers and routes.}
   spec.summary       = %q{Ruby web microframework with Rails-ish controllers and routes.}
   spec.homepage      = "https://github.com/NewRosies/rambutan"
